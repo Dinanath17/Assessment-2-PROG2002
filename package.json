@@ -1,0 +1,21 @@
+{
+  "name": "assessment-2",
+  "version": "1.0.0",
+  "main": "homepage.js",
+  "scripts": {
+    "test": "node app.js",
+    "start": "concurrently \"node app.js\" \"node server.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "mysql2": "^3.11.3"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
